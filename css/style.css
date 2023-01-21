@@ -517,7 +517,7 @@ nav .nav-link.active::after{
     height: 500px;
 }
 .blog-img{
-    min-height: 250px;
+    min-height: 150px;
 }
 .blog-item img{
     transition: 0.5s all;
