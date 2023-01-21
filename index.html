@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Daniels[badran]
+    </title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- owl cursoel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS Animation css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<body class="position-relative" data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+  <!--=====================start pre-loader ===================== -->
+  <div class="pre-loader min-vh-100 min-vw-100 hstack justify-content-center position-fixed top-0 bg-white">
+    <div class="loader h-100 d-block ">
+      <div class="spinner-border text-dark mx-auto d-block" role="status">
+        <span class="visually-hidden d-block m-auto"></span>
+      </div>
+    </div>
+  </div>
+
+
+  <!--=====================End pre-loader ===================== -->
+
+
+
+  <!-- ====================== start navbar  ======================-->
+  <nav class="navbar navbar-expand-lg bg-white py-3 position-fixed top-0 w-100 " id="navbar-example" >
+    <div class="container">
+      <a class="navbar-brand h3" href="#">Daniels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fs-3 text-black fa-bars-staggered"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#client">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====================== End navbar  ======================-->
+
+
+
+  <!-- ====================== start hero   ======================-->
+  <header class="hero" id="home">
+    <div class="layer bg-black bg-opacity-75 min-vh-100 vstack justify-content-center">
+      <div class="container">
+        <div class="text-hero text-center text-white">
+          <h1 class="">Hello</h1>
+          <h2 class="display-2 ">
+            I AM <span class="text-1 "> Developer</span><span class="text-2"> Designer</span><span class="text-3"> Larry Daniels</span>
+          </h2>
+          <div class="hero-icons pt-5">
+            <i class="fa-brands fa-facebook-f  fa-1x p-3  bg-black bg-opacity-25 rounded-circle"></i>
+            <i class="fa-brands fa-twitter fa-1x p-3 bg-black bg-opacity-25 rounded-circle"></i>
+            <i class="fa-brands fa-linkedin-in fa-1x p-3 bg-black bg-opacity-25 rounded-circle"></i>
+            <i class="fa-brands fa-behance fa-1x p-3 bg-black bg-opacity-25 rounded-circle"></i>
+            <i class="fa-brands fa-youtube fa-1x p-3 bg-black bg-opacity-25 rounded-circle"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ====================== End hero  ======================-->
+
+
+  <!-- ====================== start about  ======================-->
+  <section class="about p-5 mt-5" id="about">
+    <div class="container ">
+      <div class="row gy-5">
+        <div class="col-lg-5 col-md">
+          <div class="about-img d-flex justify-content-end">
+            <img src="./img/hero.jpg" class="w-100 d-block" alt="">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md">
+          <div class="about-caption ">
+            <h3 class="fw-bold ">About Me.</h3>
+            <p class="title">UI / UX DESIGNER & WEB DEVELOPER</p>
+            <p class="text-muted">
+              I am <span class="fw-bold " >Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            </p>
+          </div>
+          <div class="progressBar mt-5">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar Design-bar bg-black flex-row justify-content-between px-2 d-flex  " >
+                <p class="my-auto">Web Design</p>
+                <p class="my-auto">95%</p>
+              </div>
+            </div>
+            <div class="progress my-4" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar Branding-bar bg-black flex-row justify-content-between px-2 d-flex  " >
+                <p class="my-auto">Branding</p>
+                <p class="my-auto">80%</p>
+              </div>
+            </div>
+            <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-black flex-row justify-content-between px-2 d-flex align-items Development-bar" >
+                <p class="my-auto">Development</p>
+                <p class="my-auto">90%</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-buttons pt-5 d-flex gap-2 flex-wrap">
+            <button type="button" class="btn btn-dark px-5 py-3 fw-light ">Download C.V</button>
+            <button type="button" class="btn btn-outline-dark  px-5 py-3 fw-light">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section> 
+  <!-- ====================== End about  ======================-->
+
+
+
+  <!-- ====================== start services  ======================-->
+  <section class="services p-5" id="services">
+    <div class="container">
+      <div class="row row-cols-1">
+        <div class="text-caption hstack justify-content-center py-5">
+          <h3 class="h1 fw-bold">services.</h3>
+        </div>
+      </div>
+      <div class="row row-cols-md-2 row-cols-lg-3">
+        <div class="col-sm-12">
+          <div class="service-caption text-center">
+            <div class="service-icon ">
+              <i class="fa fa-laptop icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Web Design</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="service-caption text-center"> 
+            <div class="service-icon ">
+              <i class="fa-solid fa-bullhorn icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Branding</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="service-caption text-center">
+            <div class="service-icon ">
+              <i class="fa-solid fa-umbrella icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Development</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="service-caption text-center">
+            <div class="service-icon ">
+              <i class="fa-regular fa-gem icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Creative Design</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="service-caption text-center">
+            <div class="service-icon ">
+              <i class="fa fa-laptop icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Fully Responsive</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="service-caption text-center">
+            <div class="service-icon ">
+              <i class="fa-solid fa-camera icon-item"></i>
+            </div>
+            <h6 class=" mb-3 text-dark" style="font-weight: 900;">Retina Ready</h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ====================== End services  ======================-->
+
+
+
+  <!-- ====================== start Portfolio  ======================-->
+
+  <section class="Portfolio p-5" id="Portfolio">
+    <div class="container">
+      <div class="row row-cols-1">
+        <div class="text-caption hstack justify-content-center py-5">
+          <h3 class="h1 fw-bold">Portfolio.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="nav nav-pills mb-3 hstack justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-Brand-tab" data-bs-toggle="pill" data-bs-target="#pills-Brand" type="button" role="tab" aria-controls="pills-Brand" aria-selected="true">Brand</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="true">Design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-Graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-Graphic" type="button" role="tab" aria-controls="pills-Graphic" aria-selected="true">Graphic</button>
+          </li>
+          
+        </ul>
+        <div class="tab-content mt-3" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+            
+            <div class="container ">
+              <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 gy-4">
+                <div class="portfolio-item    position-relative " >
+                  <img src="./img/portfolio/1.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption   bg-white vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/2.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption  vstack justify-content-center align-items-center bg-white">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item   position-relative ">
+                  <img src="./img/portfolio/3.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption  bg-white vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/4.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center">
+                    <div class="layer-caption  bg-white  vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item   position-relative ">
+                  <img src="./img/portfolio/5.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/6.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-content mt-3" id="pills-tabContent">
+          <div class="tab-pane fade  " id="pills-Brand" role="tabpanel" aria-labelledby="pills-Brand-tab" tabindex="0">
+            
+            <div class="container ">
+              <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/4.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white  vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/6.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center">
+                    <div class="layer-caption  bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-content mt-3" id="pills-tabContent">
+          <div class="tab-pane fade  " id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+            
+            <div class="container ">
+              <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/2.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item   position-relative ">
+                  <img src="./img/portfolio/5.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white  vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-content mt-3" id="pills-tabContent">
+          <div class="tab-pane fade " id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab" tabindex="0">
+            
+            <div class="container ">
+              <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="portfolio-item    position-relative ">
+                  <img src="./img/portfolio/1.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item   position-relative ">
+                  <img src="./img/portfolio/3.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item   position-relative ">
+                  <img src="./img/portfolio/5.jpg" class="w-100 d-block" alt="">
+                  <div class="layer-over position-absolute  d-flex justify-content-center align-items-center ">
+                    <div class="layer-caption bg-white   vstack justify-content-center align-items-center">
+                      <h6 class="portfolio-title">WEB DESIGN</h6>
+                      <div class="portfolio-icons">
+                        <i class="fa-solid fa-link ms-2 portfolio-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass-plus portfolio-icon"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section> 
+
+  <!-- ====================== End Portfolio  ======================-->
+
+
+
+
+  <!-- ====================== start client  ======================-->
+  <section class="client p-5" id="client">
+    <div class="container">
+      <div class="row">
+        <div class="row row-cols-1">
+          <div class="text-caption hstack justify-content-center py-5">
+            <h3 class="h1 fw-bold">Testimonials.</h3>
+          </div>
+        </div>
+          <div id="carouselExampleIndicators" class="carousel slide" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class=" my-5">
+                  <img src="./img/clients/1 (1).jpg" width="100px" height="100px" class="d-block rounded-circle m-auto " alt="...">
+                </div>
+                <div class="client-caption w-75 m-auto text-center">
+                  <p class="text-muted">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-secondary h4">Alex Smith</h6>
+                  <span class="h6">Envato Customer</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" my-5">
+                  <img src="./img/clients/1 (1).jpg" width="100px" height="100px" class="d-block rounded-circle m-auto " alt="...">
+                </div>
+                <div class="client-caption w-75 m-auto text-center">
+                  <p class="text-muted">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-secondary h4">Alex Smith</h6>
+                  <span class="h6">Envato Customer</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" my-5">
+                  <img src="./img/clients/1 (1).jpg" width="100px" height="100px" class="d-block rounded-circle m-auto " alt="...">
+                </div>
+                <div class="client-caption w-75 m-auto text-center">
+                  <p class="text-muted">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-secondary h4">Alex Smith</h6>
+                  <span class="h6">Envato Customer</span>
+                </div>
+              </div>
+
+
+          </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ====================== End client  ======================-->
+
+
+
+  <!-- ====================== start counter  ======================-->
+  <section class="counter">
+    <div class="container">
+      <div class="row row-cols-md-1 row-cols-lg-4 gy-4">
+        <div class="counter-item vstack align-items-center">
+          <div class="counter-icon">
+            <i class="fa-solid fa-users fa-2x"></i>
+          </div>
+          <div class="counter-caption text-center">
+            <h3 class=" my-3"> 850</h3>
+            <p class="text-muted">Happy Customers</p>
+          </div>
+        </div>
+        <div class="counter-item vstack align-items-center">
+          <div class="counter-icon">
+            <i class="fa-solid fa-thumbs-up fa-2x"></i>
+          </div>
+          <div class="counter-caption text-center">
+            <h3 class=" my-3"> 230</h3>
+            <p class="text-muted">Complete Projects</p>
+          </div>
+        </div>
+        <div class="counter-item vstack align-items-center">
+          <div class="counter-icon">
+            <i class="fa-solid fa-bullhorn fa-2x"></i>
+          </div>
+          <div class="counter-caption text-center">
+            <h3 class=" my-3"> 9450</h3>
+            <p class="text-muted">Lines Of Code</p>
+          </div>
+        </div>
+        <div class="counter-item vstack align-items-center">
+          <div class="counter-icon">
+            <i class="fa-solid fa-cloud-arrow-down fa-2x"></i>
+          </div>
+          <div class="counter-caption text-center">
+            <h3 class=" my-3"> 780</h3>
+            <p class="text-muted">Happy Customers</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- ====================== End counter  ======================-->
+
+
+
+  <!-- ====================== start blog  ======================-->
+  <section class="blog " id="blog">
+    <div class="container">
+      <div class="row row-cols-1">
+        <div class="text-caption hstack justify-content-center py-5">
+          <h3 class="h1 fw-bold">Our Blog.</h3>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="blog-item">
+            <div class="blog-img overflow-hidden w-100">
+              <img src="./img/blog/1.jpg" class="w-100 d-block" alt="">
+            </div>
+            <div class="blog-item-caption" dir="ltr">
+              <h1 class="h2" style="font-size: 12px;">WordPress</h1>
+              <h2 class="h3 fw-bold">Top WordPress Themes and Plugins for Hotels, Travel, and</h2>
+              <div class="">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="blog-item">
+            <div class="blog-img overflow-hidden w-100 ">    
+              <img src="./img/blog/2.jpg" class="w-100 d-block" alt="">
+            </div>
+            <div class="blog-item-caption" dir="ltr">
+              <h1 class="h2" style="font-size: 12px;">Trends</h1>
+              <h2 class="h3 fw-bold">Master These Awesome New Skills in March 2018</h2>
+              <div class="">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="blog-item">
+            <div class="blog-img overflow-hidden w-100 ">    
+              <img src="./img/blog/3.jpg" class="w-100 d-block" alt="">
+            </div>
+            <div class="blog-item-caption" dir="ltr">
+              <h1 class="h2" style="font-size: 12px;">Themeforest</h1>
+              <h2 class="h3 fw-bold">The 20 Best Lightroom Presets You Need to Know About</h2>
+              <div class="">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="blog-item">
+            <div class="blog-img overflow-hidden w-100 ">    
+              <img src="./img/blog/4.jpg" class="w-100 d-block" alt="">
+            </div>
+            <div class="blog-item-caption" dir="ltr">
+              <h1 class="h2" style="font-size: 12px;">Trends</h1>
+              <h2 class="h3 fw-bold">Best Design Items to Appeal to the Millennial Generation</h2>
+              <div class="">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ====================== End blog  ======================-->
+
+  <!-- ====================== start contact  ======================-->
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row row-cols-1">
+        <div class="text-caption hstack justify-content-center py-5">
+          <h3 class="h1 fw-bold">Contact Us.</h3>
+        </div>
+      </div>
+      <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-3 gy-4">
+        <div class="social-item text-center ">
+          <div class="scocial-icons">
+            <i class="scocial-icon fa-solid fa-location-arrow p-3 fs-3 rounded-circle"></i>
+          </div>
+          <div class="scoial-caption">
+            <h1 class="h6 fw-bold py-2">Address</h1>
+            <p class="text-muted">6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="social-item text-center ">
+          <div class="scocial-icons">
+            <i class="scocial-icon fa-solid fa-envelope p-3 fs-3 rounded-circle"></i>
+          </div>
+          <div class="scoial-caption">
+            <h1 class="h6 fw-bold py-2">Email</h1>
+            <p class="text-muted">Badran@website.com</p>
+          </div>
+        </div>
+        <div class="social-item text-center ">
+          <div class="scocial-icons">
+            <i class="scocial-icon fa-solid fa-phone p-3 fs-3 rounded-circle"></i>
+          </div>
+          <div class="scoial-caption">
+            <h1 class="h6 fw-bold py-2">Phone</h1>
+            <p class="text-muted">+02 01151753800</p>
+          </div>
+        </div>
+      </div>
+      <form action="#">
+        <div class="row gy-4">
+          <div class="col-md-12 col-lg-6">
+            <div class="form-input">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="form-input">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-12">
+            <div class="form-input">
+              <textarea cols="30" rows="10" class="form-control" placeholder="Massage"></textarea>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-dark py-2 px-5">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====================== End contact  ======================-->
+
+
+
+
+  <!-- ====================== start footer  ======================-->
+  <footer>
+      <div class="footer-caption text-center ">
+        <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+      </div>
+  </footer>
+  <!-- ====================== End footer  ======================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- boostrap JS  -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+
+
+    <script>
+    var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          items:3,
+          loop:true,
+          margin:15,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:2,
+                  nav:true
+              },
+              1000:{
+                  items:3,
+                  nav:true,
+                  loop:true
+              }
+          },
+          autoplay:true,
+          autoplayTimeout:4000,
+          autoplayHoverPause:false
+      });
+      $('.play').on('click',function(){
+          owl.trigger('play.owl.autoplay',[4000])
+      })
+      $('.stop').on('click',function(){
+          owl.trigger('stop.owl.autoplay')
+      })
+    </script>
+
+</body>
+</html>
