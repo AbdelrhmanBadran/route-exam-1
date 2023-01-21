@@ -451,11 +451,11 @@ nav .nav-link.active::after{
     color: #000;
 }
 @media screen and (max-width: 600px) {
-    .nav-item{
+    .portfolio .nav-item{
         padding: 0 10px !important;
 
     }
-    .nav-pills{
+    .portfolio .nav-pills{
         flex-wrap: nowrap;
     }
 }
