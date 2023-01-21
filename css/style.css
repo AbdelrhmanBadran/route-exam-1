@@ -21,7 +21,7 @@ section{
 
 .pre-loader{
     z-index: 11111111111111;
-    transition:  1s 0.5s all;
+    transition:  1s 2s all;
     clip-path: polygon(0 100%, 100% 100%, 100% 50%, 0 50%, 0 50%, 33% 50%, 70% 50%, 100% 50%, 100% 0, 0 0);
 
 }
